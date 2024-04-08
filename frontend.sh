@@ -56,5 +56,6 @@ sleep 10
 echo "Tudo pronto!"
 
 # Abre o Chrome com a URL www.google.com
-google-chrome-stable http://localhost:8080/
+nohup google-chrome-stable http://localhost:8080 &
+
 
